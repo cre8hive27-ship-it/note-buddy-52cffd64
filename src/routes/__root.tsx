@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "A clean, minimal notes app to capture your ideas." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Notely — Simple notes app" },
+      { name: "twitter:description", content: "A clean, minimal notes app to capture your ideas." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/26dbb20e-f186-428e-80c9-6ccf46fc1c6a/id-preview-38587a1d--8a13707f-16ce-4511-8f8e-6fa10000a1f8.lovable.app-1783137827443.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/26dbb20e-f186-428e-80c9-6ccf46fc1c6a/id-preview-38587a1d--8a13707f-16ce-4511-8f8e-6fa10000a1f8.lovable.app-1783137827443.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
